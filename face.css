@@ -21,7 +21,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     }
 }
 
-.wrapper {background-image: url("images/p.jpg")  }
+.wrapper {background-image: url("images/p.jpg"),
+    max-width: 1200px,
+    }
 
 a1 {text-decoration: none}
 a1:visited {text-decoration: none; color: #d5bbf9}
@@ -368,7 +370,7 @@ legend {
   white-space: normal;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
   }
