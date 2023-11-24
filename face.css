@@ -14,7 +14,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
 
-
+/* For mobile*/
+@media only screen and (max-width: 768px) {
+    div {
+        margin-left: 0;
+    }
+}
 
 .wrapper {background-image: url("images/p.jpg")  }
 
